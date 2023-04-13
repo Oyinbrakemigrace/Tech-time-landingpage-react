@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --background: #F8F9FC;
+    --blue:#004DB3;
+    --footer:#000F24;
+}
+
+/* Navigation bar */
+
+.navbar.navbar-toggler-icon{
+    border-style: none;
+}
+
+.navbar{
+    background-color: var(--blue);
+}
+
+.navbar-collapse .navbtn{
+    color: var(--blue);
+}
+
+/* Hero section */
+.hero{
+    background-color: var(--blue);
+}
+
+.hero .hero-img img{
+    height: 100vh;
+    width: 40vw;
+}
+
+@media(max-width:576px){
+    .hero .hero-img img{
+        width: 80vw;
+        height: 60vh;
+    }
+}
+.hero .img .pic2{
+    position: relative;
+    left: -1rem;
+}
+.hero .img .pic3{
+    position: relative;
+    left: -2rem;
+}
+.hero .img .pic4{
+    position: relative;
+    left: -3rem;
+}
+.hero .img .pic5{
+    position: relative;
+    left: -4rem;
+}
+
+/* clients */
+
+.clients{
+    background-color: #CCDBF0;
+}
+
+.clients img{
+    width: 8%;
+}
+
+/* high quality */
+
+.high-quality{
+    background-color: var(--background);
+}
+
+.high-quality .client .courses{
+    background-color: var(--blue);
+    
+}
+
+.high-quality .unsplash-img img{
+    width: 40vw;
+} 
+
+@media(max-width:576px){
+    .high-quality .unsplash-img img{
+        width: 80vw;
+        margin: auto;
+    }
+}
+
+/* this... */
+
+.this{
+    background-color: var(--background);
+}
+
+.this img{
+    width: 90%;
+}
+
+.this .experienced-mentors{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.this .experienced-mentors img{
+    width: 15%;
+}
+
+.this .experienced-mentors p{
+    width: 100%;
+}
+
+@media(max-width:576px){
+    .this .experienced-mentors img{
+        width: 30%;
+    }
+
+    .this .experienced-mentors p{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .this .experienced-mentors h5{
+        font-size: medium;
+    }
+}
+
+/* course */
+
+.course{
+    background-color: var(--background);
+}
+
+
+
+.course .card-header img{
+    width: 100%;
+}
+
+.course .card-body .design{
+    color: var(--blue);
+    padding: 5px;
+    background-color: #1E5DCE33;
+    border-radius: 1rem;
+    font-size: 10px;
+    width: 20%;
+    text-align: center;
+}
+
+@media(max-width:576px){
+    .course .card-body .design{
+        width: 40%;
+    }
+}
+
+.course .card-body .rate{
+    font-size: 12px;
+}
+
+@media(max-width:576px){
+    .course .card-body .rate{
+        font-size: 10px;
+    }
+}
+
+.course .card-body .rate img{
+    width: 12%;
+}
+
+@media(max-width:576px){
+    .course .card-body h3{
+        width: 100%;
+        font-size: 12px;
+    }
+}
+
+.course .card-body .duration{
+    font-size: 12px;
+}
+
+@media(max-width:576px){
+    .course .card-body .duration{
+        font-size: 10px;
+    }
+}
+
+.course .card-body .duration img{
+    width: 20%;
+}
+
+@media(max-width:576px){
+    .course .card-body .duration img{
+        width: 15%;
+    }
+}
+
+.course .card-body .name img{
+    width: 20%;
+}
+
+.course .card-body .name{
+    font-size: 1rem; 
+}
+
+@media(max-width:576px){
+    .course .card-body .name{
+        font-size: 12px; 
+    }
+}
+
+.course .card-body .cost{
+    font-size: 1rem; 
+}
+
+@media(max-width:576px){
+    .course .card-body .cost{
+        font-size: 10px; 
+    }
+}
+
+/* saying */
+
+.saying{
+    background-color: var(--background);
+}
+
+
+/* community */
+
+.community{
+    background-color: var(--blue);
+    color: #FFFFFF;
+}
+
+@media(max-width:576px){
+    .community img{
+        width: 80%;
+    }
+}
+
+/* FAQs */
+
+.faq{
+    background-color: var(--background);
+}
+
+.faq .accordion{
+    max-width: 90%;
+    padding: 1rem;
+    
+}
+
+.faq .accordion-question, .accordion-answer{
+    padding: 1rem;
+    margin: 0 1px;
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--footer);
+}
+
+.footer .col-md-3 .input{
+    background-color: #2A2A2B;
+    border-color: #004DB3;
+    border-style: solid;
+    width: 50%;
+    padding: 5px;
+}
+
+.footer .col-md-3 .button{
+    background-color: #004DB3;
+    border-style: solid;
+    border-color: #004DB3;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.footer .sub{
+    width: 25%;
+}
+
+@media(max-width:576px){
+    .footer .sub{
+        width: 100%;
+    }
+}
