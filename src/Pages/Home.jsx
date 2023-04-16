@@ -184,7 +184,7 @@ const Home = () => {
       </div>
     </div>
 
-    <div className="course container-fluid">
+    <div className="course container-fluid p-md-5">
       <div className="row">
         <div className='browse '>
           <h1 className='fw-bolder text-center'>Browse our popular courses</h1>
@@ -245,7 +245,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="col-md-4 col-6">
+        <div className=" col-md-4 col-6">
           <div className="card my-2">
             <div className="card-header">
               <img src={unsplash7} alt="" />
