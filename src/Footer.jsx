@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom'
 import fb from "./assets/facebook.png"
 import twitter from "./assets/twitter.png"
 import yt from "./assets/youtube.png"
-import ig from "./assets/instagram.png"
 import discord from "./assets/discord.png"
 
 const Footer = () => {
@@ -16,11 +15,10 @@ const Footer = () => {
                     <img src={logo} alt="" className='my-3' />
                 </div>
                 <small className='text-white fw-light fs-6'>Reach out to us on any of our social media networks</small>
-                <div className='d-flex justify-content-between align-items-center'>
+                <div className='d-flex justify-content-evenly align-items-center'>
                     <NavLink><img src={fb} alt="" className='my-3' /></NavLink>
                     <NavLink><img src={twitter} alt="" className='my-3' /></NavLink>
                     <NavLink><img src={yt} alt="" className='my-3'/></NavLink>
-                    <NavLink><img src={ig} alt="" className='my-3' /></NavLink>
                     <NavLink><img src={discord} alt="" className='my-3'/></NavLink>
                 </div>
             </div>
