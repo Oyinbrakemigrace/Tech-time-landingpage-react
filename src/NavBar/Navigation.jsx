@@ -7,9 +7,9 @@ function Navigation() {
     <>
     <div className="navbar navbar-expand-md navbar-white">
 
-<NavLink className="navbar-brand text-decoration-none mx-5 mt-3"><img src={logo} alt="logo" /></NavLink>
+<NavLink className="navbar-brand text-decoration-none mx-md-5 mx-3 mt-3"><img src={logo} alt="logo" className='logo' /></NavLink>
 
-<button className="custom-toggler navbar-toggler navbar-dark border-none" data-bs-target="#links" data-bs-toggle="collapse">
+<button className="custom-toggler navbar-toggler navbar-dark border-none me-2" data-bs-target="#links" data-bs-toggle="collapse">
 <span className="navbar-toggler-icon"></span>
 </button>
 

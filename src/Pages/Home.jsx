@@ -142,10 +142,10 @@ const Home = () => {
       <div className="row ">
         <div className="col-md-6 col-12 p-4">
 
-          <h1 className='fw-bolder w-100  ms-5'>This is why we are the best from others</h1>
-          <p className='text-secondary  ms-5'>High-definition video is video of higher resolution and quality than standard definition. 
+          <h1 className='fw-bolder w-100  ms-md-5'>This is why we are the best from others</h1>
+          <p className='text-secondary  ms-md-5'>High-definition video is video of higher resolution and quality than standard definition. 
             While there’s no standard meaning for high definition, generally any standard video image</p>
-            <img src={unsplash2} alt="" className=' ms-5'/>
+            <img src={unsplash2} alt="" className=' ms-md-5'/>
       </div>
         <div className="col-md-6 col-12 my-5">
           <div className='d-flex justify-content-between'>
@@ -188,7 +188,7 @@ const Home = () => {
       <div className="row">
         <div className='browse '>
           <h1 className='fw-bolder text-center'>Browse our popular courses</h1>
-          <p className='text-secondary text-center mx-4'>High-definition video is video of higher resolution and quality than standard definition. While there’s no standard meaning for high definition, 
+          <p className='text-secondary text-center mx-md-4'>High-definition video is video of higher resolution and quality than standard definition. While there’s no standard meaning for high definition, 
             generally any standard video image</p>
             <div>
               <ul className='list-unstyled d-flex justify-content-evenly fw-normal '>
